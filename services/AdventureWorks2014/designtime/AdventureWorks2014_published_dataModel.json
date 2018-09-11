@@ -8,24 +8,27 @@
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "businessEntityId",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "BusinessEntityID",
       "nullable" : false,
       "oldName" : "BusinessEntityID",
-      "partOfAnyRelation" : true,
+      "partOfAnyRelation" : false,
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
@@ -34,15 +37,17 @@
       "unique" : true
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "nationalIdnumber",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 15,
       "name" : "NationalIDNumber",
@@ -52,6 +57,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -60,15 +66,17 @@
       "unique" : true
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "loginId",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 256,
       "name" : "LoginID",
@@ -78,6 +86,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -86,15 +95,17 @@
       "unique" : true
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "organizationNode",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "blob",
       "length" : 892,
       "name" : "OrganizationNode",
@@ -104,6 +115,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -112,15 +124,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "organizationLevel",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "short",
       "length" : 0,
       "name" : "OrganizationLevel",
@@ -130,6 +144,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 5,
       "primaryKey" : false,
       "scale" : 0,
@@ -138,15 +153,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "jobTitle",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "JobTitle",
@@ -156,6 +173,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -164,15 +182,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "birthDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "date",
       "length" : 0,
       "name" : "BirthDate",
@@ -182,6 +202,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -190,15 +211,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "maritalStatus",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "character",
       "length" : 1,
       "name" : "MaritalStatus",
@@ -208,6 +231,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -216,15 +240,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "gender",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "character",
       "length" : 1,
       "name" : "Gender",
@@ -234,6 +260,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -242,15 +269,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "hireDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "date",
       "length" : 0,
       "name" : "HireDate",
@@ -260,6 +289,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -268,15 +298,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "salariedFlag",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "boolean",
       "length" : 0,
       "name" : "SalariedFlag",
@@ -286,6 +318,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -294,15 +327,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "vacationHours",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "short",
       "length" : 0,
       "name" : "VacationHours",
@@ -312,6 +347,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 5,
       "primaryKey" : false,
       "scale" : 0,
@@ -320,15 +356,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "sickLeaveHours",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "short",
       "length" : 0,
       "name" : "SickLeaveHours",
@@ -338,6 +376,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 5,
       "primaryKey" : false,
       "scale" : 0,
@@ -346,15 +385,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "currentFlag",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "boolean",
       "length" : 0,
       "name" : "CurrentFlag",
@@ -364,6 +405,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -372,15 +414,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "rowguid",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 32,
       "name" : "rowguid",
@@ -390,6 +434,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -398,15 +443,17 @@
       "unique" : true
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "modifiedDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "ModifiedDate",
@@ -416,6 +463,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -464,29 +512,33 @@
     },
     "relations" : [ ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "TABLE"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "departmentId",
       "foreignKey" : false,
       "generatorType" : "identity",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "short",
       "length" : 0,
       "name" : "DepartmentID",
       "nullable" : false,
       "oldName" : "DepartmentID",
-      "partOfAnyRelation" : true,
+      "partOfAnyRelation" : false,
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 5,
       "primaryKey" : true,
       "scale" : 0,
@@ -495,15 +547,17 @@
       "unique" : true
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "name",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "Name",
@@ -513,6 +567,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -521,15 +576,17 @@
       "unique" : true
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "groupName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "GroupName",
@@ -539,6 +596,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -547,15 +605,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "modifiedDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "ModifiedDate",
@@ -565,6 +625,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -599,20 +660,23 @@
     },
     "relations" : [ ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "TABLE"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "businessEntityId",
       "foreignKey" : true,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "BusinessEntityID",
@@ -622,6 +686,7 @@
       "partOfForeignKey" : true,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -630,15 +695,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "departmentId",
       "foreignKey" : true,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "short",
       "length" : 0,
       "name" : "DepartmentID",
@@ -648,6 +715,7 @@
       "partOfForeignKey" : true,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 5,
       "primaryKey" : false,
       "scale" : 0,
@@ -656,15 +724,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "shiftId",
       "foreignKey" : true,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "short",
       "length" : 0,
       "name" : "ShiftID",
@@ -674,6 +744,7 @@
       "partOfForeignKey" : true,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 3,
       "primaryKey" : false,
       "scale" : 0,
@@ -682,15 +753,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "startDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "date",
       "length" : 0,
       "name" : "StartDate",
@@ -700,6 +773,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -708,15 +782,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "endDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "date",
       "length" : 0,
       "name" : "EndDate",
@@ -726,6 +802,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -734,15 +811,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "modifiedDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "ModifiedDate",
@@ -752,6 +831,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -807,6 +887,7 @@
       "sourceTable" : "EmployeeDepartmentHistory",
       "targetColumnsUniqueKey" : false,
       "targetTable" : "Department",
+      "valid" : true,
       "virtual" : false
     }, {
       "cardinality" : "ManyToOne",
@@ -838,6 +919,7 @@
       "sourceTable" : "EmployeeDepartmentHistory",
       "targetColumnsUniqueKey" : false,
       "targetTable" : "Employee",
+      "valid" : true,
       "virtual" : false
     }, {
       "cardinality" : "ManyToOne",
@@ -869,23 +951,27 @@
       "sourceTable" : "EmployeeDepartmentHistory",
       "targetColumnsUniqueKey" : false,
       "targetTable" : "Shift",
+      "valid" : true,
       "virtual" : false
     } ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "TABLE"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "businessEntityId",
       "foreignKey" : true,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "BusinessEntityID",
@@ -895,6 +981,7 @@
       "partOfForeignKey" : true,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -903,15 +990,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "rateChangeDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "RateChangeDate",
@@ -921,6 +1010,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -929,15 +1019,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "rate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "double",
       "length" : 0,
       "name" : "Rate",
@@ -947,6 +1039,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 19,
       "primaryKey" : false,
       "scale" : 4,
@@ -955,15 +1048,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "payFrequency",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "short",
       "length" : 0,
       "name" : "PayFrequency",
@@ -973,6 +1068,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 3,
       "primaryKey" : false,
       "scale" : 0,
@@ -981,15 +1077,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "modifiedDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "ModifiedDate",
@@ -999,6 +1097,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1054,23 +1153,27 @@
       "sourceTable" : "EmployeePayHistory",
       "targetColumnsUniqueKey" : false,
       "targetTable" : "Employee",
+      "valid" : true,
       "virtual" : false
     } ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "TABLE"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "jobCandidateId",
       "foreignKey" : false,
       "generatorType" : "identity",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "JobCandidateID",
@@ -1080,6 +1183,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : true,
       "scale" : 0,
@@ -1088,15 +1192,17 @@
       "unique" : true
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "businessEntityId",
       "foreignKey" : true,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "BusinessEntityID",
@@ -1106,6 +1212,7 @@
       "partOfForeignKey" : true,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -1114,15 +1221,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "resume",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "Resume",
@@ -1132,6 +1241,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1140,15 +1250,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "modifiedDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "ModifiedDate",
@@ -1158,6 +1270,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1213,23 +1326,27 @@
       "sourceTable" : "JobCandidate",
       "targetColumnsUniqueKey" : false,
       "targetTable" : "Employee",
+      "valid" : true,
       "virtual" : false
     } ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "TABLE"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "businessEntityId",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "BusinessEntityID",
@@ -1239,6 +1356,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -1247,15 +1365,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "title",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 8,
       "name" : "Title",
@@ -1265,6 +1385,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1273,15 +1394,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "firstName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "FirstName",
@@ -1291,6 +1414,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1299,15 +1423,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "middleName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "MiddleName",
@@ -1317,6 +1443,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1325,15 +1452,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "lastName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "LastName",
@@ -1343,6 +1472,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1351,15 +1481,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "suffix",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 10,
       "name" : "Suffix",
@@ -1369,6 +1501,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1377,15 +1510,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "jobTitle",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "JobTitle",
@@ -1395,6 +1530,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1403,15 +1539,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "phoneNumber",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 25,
       "name" : "PhoneNumber",
@@ -1421,6 +1559,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1429,15 +1568,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "phoneNumberType",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "PhoneNumberType",
@@ -1447,6 +1588,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1455,15 +1597,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emailAddress",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "EmailAddress",
@@ -1473,6 +1617,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1481,15 +1626,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emailPromotion",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "EmailPromotion",
@@ -1499,6 +1646,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -1507,15 +1655,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "addressLine1",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 60,
       "name" : "AddressLine1",
@@ -1525,6 +1675,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1533,15 +1684,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "addressLine2",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 60,
       "name" : "AddressLine2",
@@ -1551,6 +1704,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1559,15 +1713,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "city",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 30,
       "name" : "City",
@@ -1577,6 +1733,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1585,15 +1742,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "stateProvinceName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "StateProvinceName",
@@ -1603,6 +1762,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1611,15 +1771,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "postalCode",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 15,
       "name" : "PostalCode",
@@ -1629,6 +1791,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1637,15 +1800,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "countryRegionName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "CountryRegionName",
@@ -1655,6 +1820,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1663,15 +1829,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "additionalContactInfo",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "AdditionalContactInfo",
@@ -1681,6 +1849,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1708,20 +1877,23 @@
     },
     "relations" : [ ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "VIEW"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "businessEntityId",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "BusinessEntityID",
@@ -1731,6 +1903,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -1739,15 +1912,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "title",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 8,
       "name" : "Title",
@@ -1757,6 +1932,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1765,15 +1941,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "firstName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "FirstName",
@@ -1783,6 +1961,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1791,15 +1970,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "middleName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "MiddleName",
@@ -1809,6 +1990,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1817,15 +1999,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "lastName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "LastName",
@@ -1835,6 +2019,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1843,15 +2028,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "suffix",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 10,
       "name" : "Suffix",
@@ -1861,6 +2048,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1869,15 +2057,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "jobTitle",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "JobTitle",
@@ -1887,6 +2077,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1895,15 +2086,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "department",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "Department",
@@ -1913,6 +2106,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1921,15 +2115,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "groupName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "GroupName",
@@ -1939,6 +2135,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1947,15 +2144,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "startDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "date",
       "length" : 0,
       "name" : "StartDate",
@@ -1965,6 +2164,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -1992,20 +2192,23 @@
     },
     "relations" : [ ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "VIEW"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "businessEntityId",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "BusinessEntityID",
@@ -2015,6 +2218,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -2023,15 +2227,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "title",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 8,
       "name" : "Title",
@@ -2041,6 +2247,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2049,15 +2256,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "firstName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "FirstName",
@@ -2067,6 +2276,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2075,15 +2285,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "middleName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "MiddleName",
@@ -2093,6 +2305,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2101,15 +2314,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "lastName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "LastName",
@@ -2119,6 +2334,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2127,15 +2343,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "suffix",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 10,
       "name" : "Suffix",
@@ -2145,6 +2363,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2153,15 +2372,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "shift",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "Shift",
@@ -2171,6 +2392,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2179,15 +2401,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "department",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "Department",
@@ -2197,6 +2421,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2205,15 +2430,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "groupName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "GroupName",
@@ -2223,6 +2450,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2231,15 +2459,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "startDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "date",
       "length" : 0,
       "name" : "StartDate",
@@ -2249,6 +2479,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2257,15 +2488,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "endDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "date",
       "length" : 0,
       "name" : "EndDate",
@@ -2275,6 +2508,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2302,20 +2536,23 @@
     },
     "relations" : [ ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "VIEW"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "jobCandidateId",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "JobCandidateID",
@@ -2325,6 +2562,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -2333,15 +2571,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "businessEntityId",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "BusinessEntityID",
@@ -2351,6 +2591,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -2359,15 +2600,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "name_prefix",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 30,
       "name" : "Name.Prefix",
@@ -2377,6 +2620,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2385,15 +2629,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "name_first",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 30,
       "name" : "Name.First",
@@ -2403,6 +2649,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2411,15 +2658,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "name_middle",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 30,
       "name" : "Name.Middle",
@@ -2429,6 +2678,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2437,15 +2687,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "name_last",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 30,
       "name" : "Name.Last",
@@ -2455,6 +2707,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2463,15 +2716,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "name_suffix",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 30,
       "name" : "Name.Suffix",
@@ -2481,6 +2736,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2489,15 +2745,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "skills",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "Skills",
@@ -2507,6 +2765,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2515,15 +2774,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "addr_type",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 30,
       "name" : "Addr.Type",
@@ -2533,6 +2794,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2541,15 +2803,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "addr_loc_countryRegion",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 100,
       "name" : "Addr.Loc.CountryRegion",
@@ -2559,6 +2823,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2567,15 +2832,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "addr_loc_state",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 100,
       "name" : "Addr.Loc.State",
@@ -2585,6 +2852,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2593,15 +2861,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "addr_loc_city",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 100,
       "name" : "Addr.Loc.City",
@@ -2611,6 +2881,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2619,15 +2890,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "addr_postalCode",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 20,
       "name" : "Addr.PostalCode",
@@ -2637,6 +2910,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2645,15 +2919,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "email",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "EMail",
@@ -2663,6 +2939,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2671,15 +2948,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "webSite",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "WebSite",
@@ -2689,6 +2968,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2697,15 +2977,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "modifiedDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "ModifiedDate",
@@ -2715,6 +2997,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2742,20 +3025,23 @@
     },
     "relations" : [ ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "VIEW"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "jobCandidateId",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "JobCandidateID",
@@ -2765,6 +3051,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -2773,15 +3060,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_level",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "Edu.Level",
@@ -2791,6 +3080,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2799,15 +3089,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_startDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "Edu.StartDate",
@@ -2817,6 +3109,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2825,15 +3118,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_endDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "Edu.EndDate",
@@ -2843,6 +3138,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2851,15 +3147,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_degree",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "Edu.Degree",
@@ -2869,6 +3167,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2877,15 +3176,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_major",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "Edu.Major",
@@ -2895,6 +3196,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2903,15 +3205,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_minor",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "Edu.Minor",
@@ -2921,6 +3225,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2929,15 +3234,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_gpa",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 5,
       "name" : "Edu.GPA",
@@ -2947,6 +3254,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2955,15 +3263,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_gpascale",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 5,
       "name" : "Edu.GPAScale",
@@ -2973,6 +3283,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -2981,15 +3292,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_school",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 100,
       "name" : "Edu.School",
@@ -2999,6 +3312,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3007,15 +3321,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_loc_countryRegion",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 100,
       "name" : "Edu.Loc.CountryRegion",
@@ -3025,6 +3341,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3033,15 +3350,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_loc_state",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 100,
       "name" : "Edu.Loc.State",
@@ -3051,6 +3370,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3059,15 +3379,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "edu_loc_city",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 100,
       "name" : "Edu.Loc.City",
@@ -3077,6 +3399,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3104,20 +3427,23 @@
     },
     "relations" : [ ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "VIEW"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "jobCandidateId",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "integer",
       "length" : 0,
       "name" : "JobCandidateID",
@@ -3127,6 +3453,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 10,
       "primaryKey" : false,
       "scale" : 0,
@@ -3135,15 +3462,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_startDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "Emp.StartDate",
@@ -3153,6 +3482,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3161,15 +3491,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_endDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "Emp.EndDate",
@@ -3179,6 +3511,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3187,15 +3520,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_orgName",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 100,
       "name" : "Emp.OrgName",
@@ -3205,6 +3540,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3213,15 +3549,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_jobTitle",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 100,
       "name" : "Emp.JobTitle",
@@ -3231,6 +3569,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3239,15 +3578,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_responsibility",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "Emp.Responsibility",
@@ -3257,6 +3598,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3265,15 +3607,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_functionCategory",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "Emp.FunctionCategory",
@@ -3283,6 +3627,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3291,15 +3636,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_industryCategory",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "Emp.IndustryCategory",
@@ -3309,6 +3656,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3317,15 +3665,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_loc_countryRegion",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "Emp.Loc.CountryRegion",
@@ -3335,6 +3685,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3343,15 +3694,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_loc_state",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "Emp.Loc.State",
@@ -3361,6 +3714,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3369,15 +3723,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "emp_loc_city",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "clob",
       "length" : 2147483647,
       "name" : "Emp.Loc.City",
@@ -3387,6 +3743,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3414,29 +3771,33 @@
     },
     "relations" : [ ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "VIEW"
   }, {
     "catalog" : "AdventureWorks2014",
     "columns" : [ {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "shiftId",
       "foreignKey" : false,
       "generatorType" : "identity",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "short",
       "length" : 0,
       "name" : "ShiftID",
       "nullable" : false,
       "oldName" : "ShiftID",
-      "partOfAnyRelation" : true,
+      "partOfAnyRelation" : false,
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : true,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 3,
       "primaryKey" : true,
       "scale" : 0,
@@ -3445,15 +3806,17 @@
       "unique" : true
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "name",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "string",
       "length" : 50,
       "name" : "Name",
@@ -3463,6 +3826,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3471,15 +3835,17 @@
       "unique" : true
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "startTime",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "time",
       "length" : 0,
       "name" : "StartTime",
@@ -3489,6 +3855,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3497,15 +3864,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "endTime",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "time",
       "length" : 0,
       "name" : "EndTime",
@@ -3515,6 +3884,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : true,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3523,15 +3893,17 @@
       "unique" : false
     }, {
       "columnValue" : {
-        "type" : "user-defined",
         "insertable" : true,
         "updatable" : true,
-        "defaultValue" : null
+        "defaultValue" : null,
+        "type" : "user-defined"
       },
+      "constraintList" : null,
       "fieldName" : "modifiedDate",
       "foreignKey" : false,
       "generatorType" : "assigned",
       "generatorValue" : null,
+      "hidden" : false,
       "javaType" : "datetime",
       "length" : 0,
       "name" : "ModifiedDate",
@@ -3541,6 +3913,7 @@
       "partOfForeignKey" : false,
       "partOfPrimaryKey" : false,
       "partOfUniqueKey" : false,
+      "period" : false,
       "precision" : 0,
       "primaryKey" : false,
       "scale" : 0,
@@ -3582,6 +3955,7 @@
     },
     "relations" : [ ],
     "schema" : "HumanResources",
+    "temporals" : [ ],
     "type" : "TABLE"
   } ]
 }

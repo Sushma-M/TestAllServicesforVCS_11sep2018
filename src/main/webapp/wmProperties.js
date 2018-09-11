@@ -1,13 +1,13 @@
 var _WM_APP_PROPERTIES = {
   "activeTheme" : "material",
-  "dateFormat" : "",
   "defaultLanguage" : "en",
-  "displayName" : "TestAllServicesforVCS_31May_PRd1",
+  "displayName" : "TestAllServicesforVCS",
   "homePage" : "Main",
-  "name" : "TestAllServicesforVCS_31May_PRd1",
+  "name" : "TestAllServicesforVCS",
   "platformType" : "WEB",
+  "securityEnabled" : "true",
   "supportedLanguages" : "en",
-  "timeFormat" : "",
   "type" : "APPLICATION",
-  "version" : "1.0"
+  "version" : "1.0",
+  "xsrf_header_name" : "X-WM-XSRF-TOKEN"
 };
